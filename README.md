@@ -8,13 +8,23 @@ This Terraform module provisions a Google Cloud vpc with customizable options.
 - [Introduction](#introduction)
 - [Usage](#usage)
 - [Examples](#examples)
-- [License](#license)
-- [Author](#author)
 - [Inputs](#inputs)
 - [Outputs](#outputs)
 
 ## Introduction
 This Terraform module creates an GCP Virtual Private Cloud (vpc) along with additional configuration options.
+> A clean and opinionated Terraform module by **[Rahul Yadav](https://github.com/yrahul05)**  
+> To use this module, include it in your Terraform configuration file and provide the required input variables. Below is an example of how to use the module:
+
+👤 ABOUT ME
+Rahul Yadav  
+Certified Cloud & DevOps Engineer
+
+## 🔗 Links
+### Personal Profiles
+> **GitHub:** [https://github.com/yrahul05](https://github.com/yrahul05)  
+> **LinkedIn:** [https://www.linkedin.com/in/rahulyadavdevops/](https://www.linkedin.com/in/rahulyadavdevops/)  
+> **Upwork:** [https://www.upwork.com/freelancers/~0183ad8a41e8284283](https://www.upwork.com/freelancers/~0183ad8a41e8284283)
 
 ## Usage
 
@@ -37,13 +47,6 @@ Replace the 'source' attribute with the actual path to the module in your projec
 
 ## Examples
 For detailed examples on how to use this module, please refer to the [Examples](https://github.com/yrahul05/terraform-google-vpc/tree/master/example) directory within this repository.
-
-## License
-This Terraform module is provided under the **MIT** License. Please see the [LICENSE](https://github.com/yrahul05/terraform-google-vpc/blob/master/LICENSE) file for more details.
-
-## Author
-Your Name
-Replace **MIT** and **rahul** with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -106,4 +109,8 @@ Replace **MIT** and **rahul** with the appropriate license and your information.
 | <a name="output_self_link"></a> [self\_link](#output\_self\_link) | The URI of the created resource |
 | <a name="output_vpc_id"></a> [vpc\_id](#output\_vpc\_id) | The outputs of the created VPC. |
 | <a name="output_vpc_name"></a> [vpc\_name](#output\_vpc\_name) | The outputs of the created VPC Name. |
+
+## 💙 Maintained by Rahul Yadav
+Offering Cloud & DevOps, Web & App, and AI/ML solutions
+
 <!-- END_TF_DOCS -->
